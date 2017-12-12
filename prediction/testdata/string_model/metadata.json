@@ -1,0 +1,49 @@
+{
+ "stats": {
+  "instances": 3,
+  "labels": 2
+ },
+ "features": {
+  "x2": {
+   "dtype": "float",
+   "type": "dense",
+   "name": "x2",
+   "columns": [
+    "x2"
+   ],
+   "size": 4
+  },
+  "x1": {
+   "dtype": "float",
+   "type": "dense",
+   "name": "x1",
+   "columns": [
+    "x1"
+   ],
+   "size": 1
+  }
+ },
+ "format": "csv",
+ "feature_format": "serialized_example_proto",
+ "csv": {
+  "headers": [
+   "x1",
+   "x2"
+  ],
+  "delimiter": ","
+ },
+ "columns": {
+  "x2": {
+   "transform": "identity",
+   "type": "numeric",
+   "name": "x2",
+   "mean": 0
+  },
+  "x1": {
+   "transform": "identity",
+   "type": "numeric",
+   "name": "x1",
+   "mean": 0
+  }
+ }
+}
